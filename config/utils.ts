@@ -44,7 +44,7 @@ export const cartName: string = "idealPlugCart"
 //Order name
 export const orderName: string = "idealPlugOrder"
 
-export const SUPPORT_EMAIL: string = companyName
+export const SUPPORT_EMAIL: string = companyEmail
 export const SUPPORT_PASSWORD: string = process.env.NEXT_PUBLIC_SENDER_PASSWORD!
   
 // const routerPath = usePathname();
