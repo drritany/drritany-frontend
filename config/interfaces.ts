@@ -123,6 +123,7 @@ export interface IDiscountModalStore {
  * @notice The interface for client info
  */
 export interface IClientInfo {
+  ip?: string,
   groupTest?: string,
   country?: ICountry
 }
@@ -383,6 +384,7 @@ export interface IOrderSheet {
   UnitPrice?: string,
   TotalPrice?: string,
   DeliveryFee?: string,
+  OverallTotalPrice?: string,
   DateOrdered?: string,
   TimeOrdered?: string,
   TestGroup?: string,
